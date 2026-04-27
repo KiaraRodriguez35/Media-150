@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your Choice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .story-text {
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .options-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .option-box {
+            flex: 1;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .option-box:hover {
+            transform: scale(1.02);
+        }
+
+        .option-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .option-caption {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="story-text">
+        You are exhausted coming back from work. An older man begins to play the Guitar.....
+    </p>
+
+    <div class="options-container">
+        <div class="option-box">
+             <a href="Madeithome.html" style="text-decoration: none; color: inherit;">
+            <img src="option A scene 1.png" alt="Scene for giving a dollar">
+            <div class="option-caption">Give a dollar and a nod.</div>
+        </div>
+        
+        <div class="option-box">
+    <a href="CrowdedCar.html" style="text-decoration: none; color: inherit;">
+        <img src="option B scene 1.png" alt="Scene for using headphones">
+        <div class="option-caption">Put on noise-canceling headphones.</div>
+    </a>
+</div>
+
+</body>
+</html>

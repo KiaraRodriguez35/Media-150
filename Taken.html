@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your Choice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f4f4f4; /* Same background color as before */
+        }
+
+        .story-text {
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.5em;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .final-container {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .option-box {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+
+        .option-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .option-caption {
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1em;
+            border-top: 1px solid #ddd;
+            background-color: #ffffff;
+            color: #c0392b; /* A dark red color for the "Monster" ending */
+            line-height: 1.4;
+        }
+
+        .restart-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.2s;
+        }
+
+        .restart-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="story-text">
+        Fate has been decided...
+    </p>
+
+    <div class="final-container">
+        <div class="option-box">
+            <img src="Monster.png" alt="The Monster">
+            <div class="option-caption">
+                Everyone ended up getting eaten by this odd creature.. maybe if you would've helped we would've all gotten away!
+            </div>
+        </div>
+    </div>
+
+    <a href="Interactivestorypart1.html" class="restart-button">Try Again?</a>
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your Choice</title>
+    <style>
+        /* General page layout (the same as your original files) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4; /* Light gray background */
+        }
+
+        /* Central story text styling */
+        .story-text {
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #333; /* Slightly darker text for readability */
+        }
+
+        /* Container for the two choices, placing them side-by-side */
+        .options-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Styling for the boxes holding each image and caption */
+        .option-box {
+            flex: 1;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden; /* Keeps image corners rounded */
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+            transition: transform 0.2s, box-shadow 0.2s; /* Smooth animation for hover */
+        }
+
+        /* Hover effect: box lifts and gains shadow */
+        .option-box:hover {
+            transform: scale(1.02); /* Slight zoom */
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* Deeper shadow on hover */
+            cursor: pointer;
+        }
+
+        /* Styling for the images inside the box */
+        .option-box img {
+            width: 100%;
+            height: auto;
+            display: block; /* Removes any default spacing below the image */
+        }
+
+        /* Styling for the text captions below the images */
+        .option-caption {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-top: 1px solid #ddd; /* Divider line */
+            color: #333;
+        }
+
+        /* Styling for the links so they don't look like standard blue links */
+        .option-link {
+            text-decoration: none; /* Removes underline */
+            color: inherit; /* Inherits color from the caption styling */
+            display: block; /* The entire area becomes clickable */
+        }
+    </style>
+</head>
+<body>
+
+    <p class="story-text">
+        The train screeches to a halt. The lights flicker and die. The AC cuts out. Total darkness.
+    </p>
+
+    <div class="options-container">
+        <div class="option-box">
+            <a href="Madeithome.html" class="option-link">
+                <img src="panicoptionA.png" alt="Using flashlight and speaking calmly">
+                <div class="option-caption">Turn on your phone flashlight and speak calmly to the group.</div>
+            </a>
+        </div>
+        
+        <div class="option-box">
+            <a href="Taken.html" class="option-link">
+                <img src="panicoptionB.png" alt="Waiting in silence in the corner">
+                <div class="option-caption">Save your phone battery and move to the corner to wait in silence.</div>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

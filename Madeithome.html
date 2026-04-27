@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your Choice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Centers content vertically on the screen */
+            background-color: #f4f4f4;
+        }
+
+        .story-text {
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.5em; /* Slightly larger for the finale */
+            line-height: 1.5;
+            color: #2c3e50;
+        }
+
+        .final-container {
+            max-width: 500px; /* Limits size for a single image layout */
+            width: 100%;
+        }
+
+        .option-box {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1); /* Slightly heavier shadow for impact */
+        }
+
+        .option-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .option-caption {
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            border-top: 1px solid #ddd;
+            background-color: #ffffff;
+            color: #27ae60; /* A nice green color for a "safe" ending */
+        }
+
+        .restart-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .restart-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="story-text">
+        The journey ends here.
+    </p>
+
+    <div class="final-container">
+        <div class="option-box">
+            <img src="Makeithomesafe.png" alt="Walking home safe">
+            <div class="option-caption">
+                Congratulations! you are walking back home safe and sound
+            </div>
+        </div>
+    </div>
+
+    <a href="Interactivestorypart1.html" class="restart-button">Play Again</a>
+
+</body>
+</html>
