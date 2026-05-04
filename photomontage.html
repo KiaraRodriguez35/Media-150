@@ -3,13 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Photo Montage</title>
-</head>Photo Montage</head><br>
+    <title>Photo Montage - Kiara Rodriguez</title>
+    <style>
+        body {
+            /* Consistent soft pink background */
+            background-color: #ffe4e1; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #4a4a4a;
+        }
 
+        .profile-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            max-width: 800px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #d87093; /* Pale Violet Red */
+            margin-bottom: 5px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            color: #999;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.8em;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        img {
+            border-radius: 10px;
+            border: 5px solid #fff0f5;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            max-width: 100%;
+            height: auto;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+            border-color: #ffd1dc;
+        }
+
+        .description {
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 30px;
+            background-color: #fffafb;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #ffd1dc;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+            border-top: 1px solid #f9f9f9;
+            padding-top: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #d87093;
+            background: #fff0f5;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: all 0.3s;
+            border: 1px solid #ffd1dc;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            background: #ffd1dc;
+            color: white;
+            box-shadow: 0 2px 8px rgba(216, 112, 147, 0.3);
+        }
+    </style>
+</head>
 <body>
-<img src="photomontage.png" width="300"> <br> <img src="pmss.jpg"width="300"> </div><br>
-This photomontage explores the concept of social apathy and the "bubble" many of us live in while global issues unfold around us. I wanted to highlight the jarring contrast between those who have the privilege to remain detached and those who are directly impacted by crisis. By placing a calm, studious figure inside a literal transparent sphere, I’m commenting on how easy it is to stay preoccupied with our own lives while the world is quite literally on fire. The frantic character on the right serves as a reality check, representing the people who don’t have the luxury of a protective barrier and are forced to face these world issues head-on.
-To bring this vision to life, I sourced several images from the web and combined them using various Photoshop techniques. I relied heavily on the selection tool to isolate the subjects and utilized layer masks to create the transparency of the bubble, ensuring the fiery background was still visible through it. This masking process was crucial for blending the different art styles, the cartoonish characters against a realistic, high-stakes background to emphasize the disconnect between the individual's internal world and external reality. By layering these elements, I was able to create a montage that visually communicates the isolation of modern indifference.<br> 
 
-<a href="index.html">Home</a></body>
+    <div class="profile-container">
+        <h1>Photo Montage</h1>
+        <div class="subtitle">Digital Composition & Social Commentary</div>
+
+        <div class="image-gallery">
+            <div>
+                <img src="photomontage.png" alt="Final Photo Montage" width="350">
+                <p style="font-size: 0.7em; color: #999; margin-top: 10px;">Final Piece</p>
+            </div>
+            <div>
+                <img src="pmss.jpg" alt="Process Screenshot" width="350">
+                <p style="font-size: 0.7em; color: #999; margin-top: 10px;">Process / Layers</p>
+            </div>
+        </div>
+
+        <div class="description">
+            This photomontage explores the concept of social apathy and the "bubble" many of us live in while global issues unfold around us. I wanted to highlight the jarring contrast between those who have the privilege to remain detached and those who are directly impacted by crisis. By placing a calm, studious figure inside a literal transparent sphere, I’m commenting on how easy it is to stay preoccupied with our own lives while the world is quite literally on fire. The frantic character on the right serves as a reality check, representing the people who don’t have the luxury of a protective barrier and are forced to face these world issues head-on.
+            <br><br>
+            To bring this vision to life, I sourced several images from the web and combined them using various Photoshop techniques. I relied heavily on the selection tool to isolate the subjects and utilized layer masks to create the transparency of the bubble, ensuring the fiery background was still visible through it. This masking process was crucial for blending the different art styles—the cartoonish characters against a realistic, high-stakes background—to emphasize the disconnect between the individual's internal world and external reality. By layering these elements, I was able to create a montage that visually communicates the isolation of modern indifference.
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+</body>
 </html>
